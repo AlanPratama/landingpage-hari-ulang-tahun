@@ -126,7 +126,6 @@ export const Home = () => {
   }
   
   const [quotes, setQuotes] = useState(getRandomQuote)
-  console.log(quotes);
 
   useEffect(() => {
     setQuotes(getRandomQuote());
@@ -152,18 +151,20 @@ export const Home = () => {
       </div>
 
 
-      <div className="py-16 pb-8 px-6 flex flex-wrap justify-center items-center gap-2 sm:gap-12 h-screen pb-8 sm:pb-0">
-          <div data-aos="fade-right" className="">
-            <img src={quotes.photo} className="w-96 rounded-md shadow-xl border border-gray-200" alt={quotes.name} />
-          </div>
-          <div data-aos="fade-left" className="max-w-xl">
-            <h1 className="text-2xl sm:text-3xl font-bold capitalize mb-2">"{quotes.quote}"</h1>
-            <p className="text-xl font-semibold">- {quotes.name}</p>
-
-            <button onClick={handleGenerateQuote} type="button" class="mt-4 text-white bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Generate Quote</button>
-
-          </div>
+      {quotes && (
+        <div className="py-16 px-6 flex flex-wrap justify-center items-center gap-2 sm:gap-12 h-screen pb-8 sm:pb-0">
+        <div data-aos="fade-right">
+          <img src={quotes.photo} className="w-96 rounded-md shadow-xl border border-gray-200" alt={quotes.name} />
         </div>
+
+        <div data-aos="fade-left" className="max-w-xl">
+          <h1 className="text-2xl sm:text-3xl font-bold capitalize mb-2">"{quotes.quote}"</h1>
+          <p className="text-xl font-semibold">- {quotes.name}</p>
+
+          <button onClick={handleGenerateQuote} type="button" class="mt-4 text-white bg-gradient-to-r from-red-500 via-red-600 to-red-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Generate Quote</button>
+        </div>
+      </div>
+      )}
     </>
   );
 };
