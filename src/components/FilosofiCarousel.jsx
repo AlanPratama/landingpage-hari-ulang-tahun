@@ -35,27 +35,27 @@ const FilosofiCarousel = () => {
                     renderArrowNext={(onClickHandler, hasNext, label) => (
                         hasNext && <button type="button" onClick={onClickHandler} title={label} className="p-4 text-5xl absolute right-0 translate-y-1/2 bottom-1/2 z-10 opacity-50" style={{ color: themeColor[theme].text }}>&gt;</button>
                     )}>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen flex-col gap-16`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full flex-col gap-16`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">Filosofi Logo</h2>
                         <img src={theme == 0 ? "./vector/logo-ri-79-theme-1.svg" : "./vector/logo-ri-79-theme-23.svg"} alt="HUT RI 79" className="!w-1/2 max-sm:!w-5/6" />
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">Semangat Baru yang Kuat untuk Menyukseskan 3 Transisi Besar</h2>
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">Persatuan Nusantara yang Berprinsip pada Nilai Luhur</h2>
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen flex-col gap-16`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full flex-col gap-16`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">3 Transisi Besar</h2>
                         <h2 className="text-5xl md:text-7xl">⇒</h2>
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl"><strong>Persatuan</strong> merupakan hal dasar yang harus dicapai Indonesia sebagai negara kepulauan.</h2>
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl"><strong>Kesetaraan</strong> menjadi salah satu tujuan negara dengan cara pembangunan Indonesia.</h2>
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center px-8 h-screen`} style={{ color: themeColor[theme].text }}>
+                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl"><strong>Nilai Luhur</strong> Indonesia, Pancasila.</h2>
                     </div>
                 </Carousel>

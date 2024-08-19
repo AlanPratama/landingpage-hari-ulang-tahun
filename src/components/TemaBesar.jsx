@@ -20,7 +20,7 @@ function TemaBesar({ slides }) {
                     <div key={index}>
                         <div className="flex flex-col sm:flex-row gap-8 items-center justify-center w-auto font-lato max-sm:px-8">
                             <div className="sm:w-1/2 flex-shrink-0">
-                                <img src={slide.imageSrc} alt="background" className="w-auto h-auto border border-gray-300 rounded-lg shadow-lg mx-0" />
+                                <img src={slide.imageSrc} alt="background" className="w-full aspect-video object-cover border border-gray-300 rounded-lg shadow-lg mx-0" />
                             </div>
                             <div className="sm:w-1/3 text-left flex flex-col">
                                 <motion.h1 className="text-red-600 text-3xl"
