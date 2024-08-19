@@ -47,16 +47,30 @@ const FilosofiCarousel = () => {
                     </div>
                     <div key="content-0" className={`flex justify-center items-center p-16 min-h-full flex-col gap-16`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">3 Transisi Besar</h2>
-                        <h2 className="text-5xl md:text-7xl">⇒</h2>
+                        <div className="flex gap-8 md:flex-row flex-col">
+                            <h2 className="text-2xl lg:text-4xl md:w-1/3"><strong>Persatuan</strong> merupakan hal dasar yang harus dicapai Indonesia sebagai negara kepulauan.</h2>
+                            <h2 className="text-2xl lg:text-4xl md:w-1/3"><strong>Kesetaraan</strong> menjadi salah satu tujuan negara dengan cara pembangunan Indonesia.</h2>
+                            <h2 className="text-2xl lg:text-4xl md:w-1/3"><strong>Nilai Luhur</strong> Indonesia, Pancasila.</h2>
+                        </div>
                     </div>
-                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
-                        <h2 className="text-5xl md:text-7xl"><strong>Persatuan</strong> merupakan hal dasar yang harus dicapai Indonesia sebagai negara kepulauan.</h2>
-                    </div>
-                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
-                        <h2 className="text-5xl md:text-7xl"><strong>Kesetaraan</strong> menjadi salah satu tujuan negara dengan cara pembangunan Indonesia.</h2>
-                    </div>
-                    <div key="content-0" className={`flex justify-center items-center p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
-                        <h2 className="text-5xl md:text-7xl"><strong>Nilai Luhur</strong> Indonesia, Pancasila.</h2>
+                    <div key="content-0" className={`flex justify-center items-center flex-col gap-8 p-16 min-h-full`} style={{ color: themeColor[theme].text }}>
+                        <h2 className="text-2xl md:text-3xl">
+                            Berdasarkan tema besar Nusantara 
+                            Baru, Indonesia Maju, maka dirumuskan 
+                            gambaran besar identitas visual HUT 
+                            ke-79 Kemerdekaan RI, yaitu Indonesia 
+                            membutuhkan semangat baru yang besar 
+                            dengan persatuan dan kesetaraan untuk 
+                            mencapai segala tujuan. Dalam perjuangan 
+                            yang baru ini, negara tetap berprinsip pada 
+                            nilai-nilai luhur dengan memperhatikan 
+                            kodrat alam dan budaya. 
+                        </h2>
+                        <div className="flex">
+                            <img src={"./assets/FotoEstafet.png"} alt="HUT RI 79" className="!w-1/3 object-cover aspect-[4/3] max-2xl:!hidden" />
+                            <img src={"./assets/FotoGaruda.jpg"} alt="HUT RI 79" className="!w-1/3 object-cover aspect-[4/3] max-2xl:!hidden" />
+                            <img src={"./assets/FotoBukitTelangKalsel.jpg"} alt="HUT RI 79" className="!w-1/3 object-cover aspect-[4/3] max-2xl:!hidden" />
+                        </div>
                     </div>
                 </Carousel>
             </div>
