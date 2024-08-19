@@ -73,7 +73,6 @@ export const Footer = () => {
                         </span>
                         <div className="flex items-center mt-1 space-x-3">
                             <a
-                                href="https://twitter.com/fauzan_zaman?lang=gl"
                                 className="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400"
                             >
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -81,7 +80,6 @@ export const Footer = () => {
                                 </svg>
                             </a>
                             <a
-                                href="https://www.instagram.com/fauzan.zmn/?igsh=ZmZmaTdpandpd3pn"
                                 className="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400"
                             >
                                 <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -90,7 +88,6 @@ export const Footer = () => {
                                 </svg>
                             </a>
                             <a
-                                href="https://www.facebook.com/people/Fauzan-Zaman/pfbid02ix4kdbmYH2mXyepbroSnfrGxDA1Z3Daiohi3h1V5LCbGWSooQzzXeyXp8ytktNZKl/"
                                 className="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400"
                             >
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
