@@ -6,7 +6,6 @@ import { Splash } from './pages/Splash';
 import './custom.css';
 import { Gallery } from './pages/Gallery';
 import { Sejarah } from './pages/Sejarah';
-import TemaBesar from './components/TemaBesar';
 import gambar1 from '../src/assets/tema_besar_1.jpg';
 import gambar2 from '../src/assets/tema_besar_2.jpg';
 import 'slick-carousel/slick/slick.css';

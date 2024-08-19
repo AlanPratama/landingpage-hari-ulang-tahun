@@ -5,6 +5,7 @@ import { Splash } from '../pages/Splash'
 export const RiLayout = ({ children }) => {
   return (
     <>
+        <Splash />
         <Navbar />
 
         <div className=''>

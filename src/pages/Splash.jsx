@@ -16,7 +16,7 @@ export const Splash = () => {
     });
 
     return (
-        <div className="absolute z-[99] w-screen transition-fade">
+        <div className="fixed z-[9999] w-full transition-fade">
             <div className="w-full h-screen relative flex flex-col justify-center items-center">
                 <video
                     className="w-full h-screen object-cover"
