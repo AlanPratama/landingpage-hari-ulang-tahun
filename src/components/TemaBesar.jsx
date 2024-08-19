@@ -10,6 +10,7 @@ function TemaBesar({ slides }) {
         slidesToShow: 1,
         fade: true,
         slidesToScroll: 1,
+        waitForAnimate: false
     };
 
     return (
