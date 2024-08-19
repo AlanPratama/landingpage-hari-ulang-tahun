@@ -43,9 +43,7 @@ export const Home = () => {
         {/* <video src="../../public/assets/pesonaIndonesia.gif" autoPlay loop className="h-screen"></video> */}
       </section>
       <section>
-        <div className="py-[200px]">
-          <TemaBesar slides={slides} />
-        </div>
+        <TemaBesar slides={slides} />
       </section>
       <section>
         <FilosofiCarousel />

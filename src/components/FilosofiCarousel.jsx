@@ -24,7 +24,7 @@ const themeColor = [
 ]
 
 const FilosofiCarousel = () => {
-    const [theme, setTheme] = useState(0);
+    const [theme, setTheme] = useState(1);
     return (
         <div style={{ backgroundColor: themeColor[theme].background }}>
             <div className="container py-16 mx-auto">
