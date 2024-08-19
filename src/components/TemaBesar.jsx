@@ -8,6 +8,7 @@ function TemaBesar({ slides }) {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
+        fade: true,
         slidesToScroll: 1,
     };
 
