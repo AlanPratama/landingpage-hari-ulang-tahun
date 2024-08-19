@@ -6,7 +6,7 @@ export const Footer = () => {
         <div className="bg-gray-900 text-white">
             <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="grid grid-cols-6 gap-10 row-gap-6 mb-8">
-                    <div className="col-span-3 d w-auto">
+                    <div className="sm:col-span-3 col-span-6 d w-auto">
                         <a
                             href="https://akcdn.detik.net.id/community/media/visual/2023/05/26/pragos-little-krishna-1_169.png?w=620"
                             aria-label="Go home"
@@ -27,7 +27,7 @@ export const Footer = () => {
 
                         </div>
                     </div>
-                    <div className="col-span-2 space-y-2 text-sm">
+                    <div className="sm:col-span-2 col-span-6 space-y-2 text-sm">
                         <p className="text-base font-bold tracking-wide text-white">
                             Contacts
                         </p>
@@ -67,7 +67,7 @@ export const Footer = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='col-span-1'>
+                    <div className='sm:col-span-1 col-span-6'>
                         <span className="text-base font-bold tracking-wide text-white">
                             Social
                         </span>
