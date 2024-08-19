@@ -11,7 +11,7 @@ export const Home = () => {
     {
       imageSrc: gambar1,
       title: "Tema Besar",
-      subtitle: '"Nusantara Baru Indonesia Maju "',
+      subtitle: 'Nusantara Baru Indonesia Maju',
     },
     {
       imageSrc: gambar2,

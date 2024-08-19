@@ -30,14 +30,14 @@ const FilosofiCarousel = () => {
             <div className="container py-16 mx-auto">
                 <Carousel showThumbs={false} showStatus={false} useKeyboardArrows swipeable={true}
                     renderArrowPrev={(onClickHandler, hasPrev, label) => (
-                        hasPrev && <button type="button" onClick={onClickHandler} title={label} className="p-4 text-5xl absolute left-0 translate-y-1/2 bottom-1/2 z-10 !border-0 !bg-transparent" style={{ color: themeColor[theme].text }}>&lt;</button>
+                        hasPrev && <button type="button" onClick={onClickHandler} title={label} className="p-4 text-5xl absolute left-0 translate-y-1/2 bottom-1/2 z-10 opacity-50" style={{ color: themeColor[theme].text }}>&lt;</button>
                     )}
                     renderArrowNext={(onClickHandler, hasNext, label) => (
-                        hasNext && <button type="button" onClick={onClickHandler} title={label} className="p-4 text-5xl absolute right-0 translate-y-1/2 bottom-1/2 z-10" style={{ color: themeColor[theme].text }}>&gt;</button>
+                        hasNext && <button type="button" onClick={onClickHandler} title={label} className="p-4 text-5xl absolute right-0 translate-y-1/2 bottom-1/2 z-10 opacity-50" style={{ color: themeColor[theme].text }}>&gt;</button>
                     )}>
                     <div key="content-0" className={`flex justify-center items-center px-8 h-screen flex-col gap-16`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">Filosofi Logo</h2>
-                        <img src={theme == 0 ? "./vector/logo-ri-79-theme-1.svg" : "./vector/logo-ri-79-theme-23.svg"} alt="HUT RI 79" className="!w-1/2" />
+                        <img src={theme == 0 ? "./vector/logo-ri-79-theme-1.svg" : "./vector/logo-ri-79-theme-23.svg"} alt="HUT RI 79" className="!w-1/2 max-sm:!w-5/6" />
                     </div>
                     <div key="content-0" className={`flex justify-center items-center px-8 h-screen`} style={{ color: themeColor[theme].text }}>
                         <h2 className="text-5xl md:text-7xl">Semangat Baru yang Kuat untuk Menyukseskan 3 Transisi Besar</h2>
