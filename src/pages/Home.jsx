@@ -1,5 +1,6 @@
 import img from "../../public/assets/pesonaIndonesia.gif";
 import HeroVideo from "../../public/assets/hero-video.mp4";
+import TemaBesar from "../components/TemaBesar"
 
 export const Home = () => {
   return (

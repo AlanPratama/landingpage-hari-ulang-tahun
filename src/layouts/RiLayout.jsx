@@ -10,7 +10,6 @@ export const RiLayout = ({ children }) => {
         <div className=''>
             {children}
         </div>
-
     </>
   )
 }
