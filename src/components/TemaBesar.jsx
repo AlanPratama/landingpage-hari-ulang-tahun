@@ -13,12 +13,12 @@ function TemaBesar({ slides }) {
     };
 
     return (
-        <div className="slider-container mx-0 w-screen overflow-x-hidden">
+        <div className="slider-container w-screen overflow-x-hidden h-[100vh]">
             <Slider {...settings}>
                 {slides.map((slide, index) => (
-                    <div key={index} className='mx-0'> 
-                        <div className="flex flex-row items-center justify-center w-auto mx-0 font-lato">
-                            <div className="w-1/2 flex-shrink-0 mx-0">
+                    <div key={index} className=''> 
+                        <div className="flex flex-row items-center justify-center w-auto font-lato">
+                            <div className="w-1/2 flex-shrink-0">
                                 <img src={slide.imageSrc} alt="background" className="w-auto h-auto border border-gray-300 rounded-lg shadow-lg mx-0" />
                             </div>
                             <div className="w-1/3 text-left pl-8 flex flex-col">
