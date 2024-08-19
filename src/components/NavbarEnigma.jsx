@@ -10,7 +10,7 @@ export function NavbarEnigma() {
         <img src="../../public/assets/enigma/LogoGrowWithEnigmaCamp-PNG.png" className="mr-3 sm:w-20" alt="Flowbite React Logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Get started</Button>
+        <Button style={{ backgroundColor: "#3266a8" }}>Get started</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>

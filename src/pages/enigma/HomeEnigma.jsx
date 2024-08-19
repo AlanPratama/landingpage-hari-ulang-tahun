@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { CarouselComp } from "../../components/CarouselComp";
 
 export const HomeEnigma = () => {
@@ -6,98 +7,40 @@ export const HomeEnigma = () => {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-10 place-items-center lg:grid-cols-2">
           <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-            <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
-              <svg className="text-teal-900 w-7 h-7" viewBox="0 0 24 24">
-                <polyline
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeMiterlimit="10"
-                  points=" 8,5 8,1 16,1 16,5"
-                  strokeLinejoin="round"
-                />
-                <polyline
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeMiterlimit="10"
-                  points="9,15 1,15 1,5 23,5 23,15 15,15"
-                  strokeLinejoin="round"
-                />
-                <polyline
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeMiterlimit="10"
-                  points="22,18 22,23 2,23 2,18"
-                  strokeLinejoin="round"
-                />
-                <rect
-                  x="9"
-                  y="13"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeMiterlimit="10"
-                  width="6"
-                  height="4"
-                  strokeLinejoin="round"
-                />
-              </svg>
+            <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-teal-accent-400">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M86.4 5.5L61.8 47.6C58 54.1 56 61.6 56 69.2L56 72c0 22.1 17.9 40 40 40s40-17.9 40-40l0-2.8c0-7.6-2-15-5.8-21.6L105.6 5.5C103.6 2.1 100 0 96 0s-7.6 2.1-9.6 5.5zm128 0L189.8 47.6c-3.8 6.5-5.8 14-5.8 21.6l0 2.8c0 22.1 17.9 40 40 40s40-17.9 40-40l0-2.8c0-7.6-2-15-5.8-21.6L233.6 5.5C231.6 2.1 228 0 224 0s-7.6 2.1-9.6 5.5zM317.8 47.6c-3.8 6.5-5.8 14-5.8 21.6l0 2.8c0 22.1 17.9 40 40 40s40-17.9 40-40l0-2.8c0-7.6-2-15-5.8-21.6L361.6 5.5C359.6 2.1 356 0 352 0s-7.6 2.1-9.6 5.5L317.8 47.6zM128 176c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48c-35.3 0-64 28.7-64 64l0 71c8.3 5.2 18.1 9 28.8 9c13.5 0 27.2-6.1 38.4-13.4c5.4-3.5 9.9-7.1 13-9.7c1.5-1.3 2.7-2.4 3.5-3.1c.4-.4 .7-.6 .8-.8l.1-.1s0 0 0 0s0 0 0 0s0 0 0 0s0 0 0 0c3.1-3.2 7.4-4.9 11.9-4.8s8.6 2.1 11.6 5.4c0 0 0 0 0 0s0 0 0 0l.1 .1c.1 .1 .4 .4 .7 .7c.7 .7 1.7 1.7 3.1 3c2.8 2.6 6.8 6.1 11.8 9.5c10.2 7.1 23 13.1 36.3 13.1s26.1-6 36.3-13.1c5-3.5 9-6.9 11.8-9.5c1.4-1.3 2.4-2.3 3.1-3c.3-.3 .6-.6 .7-.7l.1-.1c3-3.5 7.4-5.4 12-5.4s9 2 12 5.4l.1 .1c.1 .1 .4 .4 .7 .7c.7 .7 1.7 1.7 3.1 3c2.8 2.6 6.8 6.1 11.8 9.5c10.2 7.1 23 13.1 36.3 13.1s26.1-6 36.3-13.1c5-3.5 9-6.9 11.8-9.5c1.4-1.3 2.4-2.3 3.1-3c.3-.3 .6-.6 .7-.7l.1-.1c2.9-3.4 7.1-5.3 11.6-5.4s8.7 1.6 11.9 4.8c0 0 0 0 0 0s0 0 0 0s0 0 0 0l.1 .1c.2 .2 .4 .4 .8 .8c.8 .7 1.9 1.8 3.5 3.1c3.1 2.6 7.5 6.2 13 9.7c11.2 7.3 24.9 13.4 38.4 13.4c10.7 0 20.5-3.9 28.8-9l0-71c0-35.3-28.7-64-64-64l0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48-64 0 0-48c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 48-64 0 0-48zM448 394.6c-8.5 3.3-18.2 5.4-28.8 5.4c-22.5 0-42.4-9.9-55.8-18.6c-4.1-2.7-7.8-5.4-10.9-7.8c-2.8 2.4-6.1 5-9.8 7.5C329.8 390 310.6 400 288 400s-41.8-10-54.6-18.9c-3.5-2.4-6.7-4.9-9.4-7.2c-2.7 2.3-5.9 4.7-9.4 7.2C201.8 390 182.6 400 160 400s-41.8-10-54.6-18.9c-3.7-2.6-7-5.2-9.8-7.5c-3.1 2.4-6.8 5.1-10.9 7.8C71.2 390.1 51.3 400 28.8 400c-10.6 0-20.3-2.2-28.8-5.4L0 480c0 17.7 14.3 32 32 32l384 0c17.7 0 32-14.3 32-32l0-85.4z" /></svg>
             </div>
             <div className="max-w-xl mb-6">
-              <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                Let us handle
-                <br className="hidden md:block" />
-                your next{" "}
-                <span className="inline-block text-deep-purple-accent-400">
-                  destination
-                </span>
-              </h2>
+              <div className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                <p className="text-5xl">Turning 5 with Enigma: A Celebration of Creativity!</p>
+              </div>
               <p className="text-base text-gray-700 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae. explicabo.
+                Enigma turns 5! This journey has been filled with inspiring moments, creative ideas, and remarkable achievements. We can’t wait to see what we will achieve next together with you.
               </p>
             </div>
             <div>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-                <svg
-                  className="inline-block w-3 ml-2"
-                  fill="currentColor"
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-                </svg>
-              </a>
+              <button className="cursor-pointer py-2 px-5 bg-[#3266a8] hover:bg-[#709edb] font-bold w-auto text-white rounded-full">
+                <p>Celebrate with Us</p>
+              </button>
             </div>
           </div>
           <div className="flex items-center justify-center -mx-4 lg:pl-8">
             <div className="flex flex-col items-end px-3">
               <img
                 className="object-cover mb-6 rounded shadow-lg h-28 sm:h-48 xl:h-56 w-28 sm:w-48 xl:w-56"
-                src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="../../../public/assets/enigma/DSC04010.jpg"
                 alt=""
               />
               <img
                 className="object-cover w-20 h-20 rounded shadow-lg sm:h-32 xl:h-40 sm:w-32 xl:w-40"
-                src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                src="../../../public/assets/enigma/DSC04026.jpg"
                 alt=""
               />
             </div>
             <div className="px-3">
               <img
                 className="object-cover w-40 h-40 rounded shadow-lg sm:h-64 xl:h-80 sm:w-64 xl:w-80"
-                src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+                src="../../../public/assets/enigma/DSC04033.jpg"
                 alt=""
               />
             </div>
@@ -108,10 +51,7 @@ export const HomeEnigma = () => {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 sm:mx-auto">
           <h2 className="font-sans text-3xl font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl sm:text-center">
-            The quick, brown fox jumps over and over{" "}
-            <span className="inline-block text-deep-purple-accent-400">
-              a lazy dog
-            </span>
+            Get ready to achieve more, together
           </h2>
         </div>
         <div className="grid gap-12 row-gap-8 lg:grid-cols-3">
@@ -126,8 +66,7 @@ export const HomeEnigma = () => {
                 RESPECT
               </h6>
               <p className="text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem,
-                isa unde est nast laudantium.
+                Treat and honor one another with mutual respect and consideration.
               </p>
             </div>
           </div>
@@ -143,8 +82,7 @@ export const HomeEnigma = () => {
                 Effective & Efficient
               </h6>
               <p className="text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem,
-                isa unde est nast laudantium.
+                Maximize work processes to achieve the best possible outcomes.
               </p>
             </div>
           </div>
@@ -160,8 +98,7 @@ export const HomeEnigma = () => {
                 AGILE
               </h6>
               <p className="text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem,
-                isa unde est nast laudantium.
+                Adapt and adjust swiftly to changes.
               </p>
             </div>
           </div>
@@ -177,8 +114,7 @@ export const HomeEnigma = () => {
                 Discipline
               </h6>
               <p className="text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem,
-                isa unde est nast laudantium.
+                Follow and adhere to rules, including those related to self-discipline.
               </p>
             </div>
           </div>
@@ -194,438 +130,63 @@ export const HomeEnigma = () => {
                 Yes I can
               </h6>
               <p className="text-sm text-gray-900">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem,
-                isa unde est nast laudantium.
+                Maintain a positive and optimistic outlook in all situations.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="px-8">
+      <div className="px-8 mt-12">
+        <h2 className="font-sans text-3xl font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl sm:text-center">
+
+          <span className="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="1d4040f3-9f3e-4ac7-b117-7d4009658ced"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7" />
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#1d4040f3-9f3e-4ac7-b117-7d4009658ced)"
+                width="52"
+                height="24"
+              />
+            </svg>
+            <div className="max-w-xl mb-10 sm:mx-auto">
+              <h2 className="font-sans text-3xl font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl sm:text-center">
+                Our Moments
+              </h2>
+            </div>
+          </span>{" "}
+        </h2>
         <CarouselComp />
       </div>
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-        <div className="flex flex-col lg:items-center lg:flex-row">
-          <div className="flex items-center mb-6 lg:w-1/2 lg:mb-0">
-            <div className="flex items-center justify-center w-16 h-16 mr-5 rounded-full bg-indigo-50 sm:w-24 sm:h-24 xl:mr-10 xl:w-28 xl:h-28">
-              <span className="text-blue-700 font-bold text-4xl">RP</span>
-            </div>
-            <h3 className="text-4xl font-extrabold sm:text-5xl xl:text-4xl">
-              1.500.000
-            </h3>
-          </div>
-          <div className="lg:w-1/2">
-            <p className="text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-      </div>
 
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              Core Team
-            </p>
+          <div className="max-w-xl mb-10 sm:mx-auto">
+            <h2 className="font-sans text-3xl font-bold leading-tight tracking-tight text-gray-900 sm:text-4xl sm:text-center">
+              Let’s Grow Together with Enigma
+            </h2>
           </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
-            <span className="relative inline-block">
-              <svg
-                viewBox="0 0 52 24"
-                fill="currentColor"
-                className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
-              >
-                <defs>
-                  <pattern
-                    id="1d4040f3-9f3e-4ac7-b117-7d4009658ced"
-                    x="0"
-                    y="0"
-                    width=".135"
-                    height=".30"
-                  >
-                    <circle cx="1" cy="1" r=".7" />
-                  </pattern>
-                </defs>
-                <rect
-                  fill="url(#1d4040f3-9f3e-4ac7-b117-7d4009658ced)"
-                  width="52"
-                  height="24"
-                />
-              </svg>
-              <span className="relative">Welcome</span>
-            </span>{" "}
-            our talented team of professionals
-          </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque rem aperiam, eaque ipsa quae.
+            As we reach the end of this journey, remember that growth is a continuous process. With Enigma by your side, you’re equipped to embrace new challenges and achieve your goals. Ready to take the leap?
           </p>
-        </div>
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Oliver Aguilerra
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Product Manager</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Vincent Van Gogh’s most popular painting, The Starry Night.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Marta Clermont
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Design Team Lead</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Amet I love liquorice jujubes pudding croissant I love
-                  pudding.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Anthony Geek
-                </p>
-                <p className="mb-4 text-xs text-gray-100">CTO, Lorem Inc.</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Apple pie macaroon toffee jujubes pie tart cookie caramels.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Alice Melbourne
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Human Resources</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Lorizzle ipsum bling bling sit amizzle, consectetuer
-                  adipiscing elit.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Martin Garix
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Good guy</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Bacon ipsum dolor sit amet salami jowl corned beef, andouille
-                  flank.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Andrew Larkin
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Backend Developer</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Moonfish, steelhead, lamprey southern flounder tadpole fish
-                  bigeye.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Sophie Denmo
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Designer</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  Veggies sunt bona vobis, proinde vos postulo esse magis grape
-                  pea.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div className="relative overflow-hidden transition duration-300 transform rounded shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl">
-              <img
-                className="object-cover w-full h-56 md:h-64 xl:h-80"
-                src="https://images.pexels.com/photos/3931553/pexels-photo-3931553.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt="Person"
-              />
-              <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-black bg-opacity-75 opacity-0 hover:opacity-100">
-                <p className="mb-1 text-lg font-bold text-gray-100">
-                  Benedict Caro
-                </p>
-                <p className="mb-4 text-xs text-gray-100">Frontend Developer</p>
-                <p className="mb-4 text-xs tracking-wide text-gray-400">
-                  I love cheese, especially airedale queso. Cheese and biscuits
-                  halloumi.
-                </p>
-                <div className="flex items-center justify-center space-x-3">
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z" />
-                    </svg>
-                  </a>
-                  <a
-                    href="/"
-                    className="text-white transition-colors duration-300 hover:text-teal-accent-400"
-                  >
-                    <svg
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="h-5"
-                    >
-                      <path d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          <button className="mt-5 cursor-pointer py-2 px-5 bg-[#3266a8] hover:bg-[#709edb] font-bold w-auto text-white rounded-full">
+            <p>Celebrate with Us</p>
+          </button>
         </div>
       </div>
 
