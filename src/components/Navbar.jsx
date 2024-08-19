@@ -37,44 +37,43 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link to={"/ri/sejarah"}
                 aria-label="Product pricing"
                 title="Product pricing"
                 className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
-                Pricing
-              </a>
+                Sejarah
+              </Link>
             </li>
           </ul>
-          <a
-            href="/"
+          <Link
+            to="/ri"
             aria-label="Company"
             title="Company"
             className="inline-flex items-center"
           >
             <img src="../../public/assets/HUTRI79LogoUtama.png" className="w-24" alt="" />
-          </a>
-          <ul className="flex items-center hidden space-x-8 lg:flex">
+          </Link>
+          <ul class="flex items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to={"/ri"}
                 aria-label="About us"
                 title="About us"
                 className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
-                About us
-              </a>
+                Home
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to={"/ri/pahlawan"}
                 aria-label="Sign in"
                 title="Sign in"
                 className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
-                Sign in
-              </a>
+                Pahlawan
+              </Link>
             </li>
           </ul>
           <div className="lg:hidden">
@@ -104,8 +103,8 @@ export const Navbar = () => {
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <a
-                        href="/"
+                      <Link
+                        to="/ri"
                         aria-label="Company"
                         title="Company"
                         className="inline-flex items-center"
@@ -128,7 +127,7 @@ export const Navbar = () => {
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                           Company
                         </span>
-                      </a>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -147,66 +146,50 @@ export const Navbar = () => {
                     </div>
                   </div>
                   <nav>
-                    <ul className="space-y-4">
-                      <li>
-                        <a
-                          href="/"
+                    <ul class="space-y-4">
+                    <li>
+                        <Link
+                          href="/ri"
                           aria-label="Our product"
                           title="Our product"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
                         >
-                          Product
-                        </a>
+                          Home
+                        </Link>
                       </li>
+
+
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          href="/ri/gallery"
                           aria-label="Our product"
                           title="Our product"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
                         >
-                          Features
-                        </a>
+                          Gallery
+                        </Link>
                       </li>
+
                       <li>
-                        <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
+                        <Link
+                          href="/ri/sejarah"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
                         >
-                          Pricing
-                        </a>
+                          Sejarah
+                        </Link>
                       </li>
+
                       <li>
-                        <a
-                          href="/"
-                          aria-label="About us"
-                          title="About us"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
+                        <Link
+                          href="/ri/pahlawan"
+                          aria-label="Our product"
+                          title="Our product"
+                          class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
                         >
-                          About us
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          aria-label="Sign in"
-                          title="Sign in"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-[#ED1C24]"
-                        >
-                          Sign in
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
-                        >
-                          Sign up
-                        </a>
+                          Pahlawan
+                        </Link>
                       </li>
                     </ul>
                   </nav>
