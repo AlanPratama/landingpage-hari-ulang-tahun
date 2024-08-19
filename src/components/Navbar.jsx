@@ -1,21 +1,37 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const [isColoChange, setIsColoChange] = useState(false);
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.scrollY > 400) {
+                setIsColoChange(true);
+            } else {
+                setIsColoChange(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
   
     return (
         <>
 {/* -mb-16 */}
 
-      <div style={{ zIndex: 999 }} className="fixed top-0 w-full px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div style={{ zIndex: 999 }} className="   relative flex items-center justify-between lg:justify-center lg:space-x-16">
+      <div style={{ zIndex: 999 }} className="fixed top-0 lg:left-[50%] lg:translate-x-[-50%] w-full px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div style={{ zIndex: 999 }} className={`${isColoChange ? "bg-white rounded-full w-auto" : " "} relative flex items-center justify-between lg:justify-center lg:space-x-16`}>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link to={"/ri/gallery"}
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Gallery
               </Link>
@@ -24,7 +40,7 @@ export const Navbar = () => {
               <Link to={"/ri/sejarah"}
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Sejarah
               </Link>
@@ -44,7 +60,7 @@ export const Navbar = () => {
                 to={"/ri"}
                 aria-label="About us"
                 title="About us"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Home
               </Link>
@@ -54,7 +70,7 @@ export const Navbar = () => {
                 to={"/ri/pahlawan"}
                 aria-label="Sign in"
                 title="Sign in"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Pahlawan
               </Link>
@@ -93,7 +109,24 @@ export const Navbar = () => {
                         title="Company"
                         className="inline-flex items-center"
                       >
-                        <img src="../../public/assets/HUTRI79LogoUtama.png" className="w-24" alt="" />
+                        <svg
+                          className="w-8 text-deep-purple-accent-400"
+                          viewBox="0 0 24 24"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeMiterlimit="10"
+                          stroke="currentColor"
+                          fill="none"
+                        >
+                          <rect x="3" y="1" width="7" height="12" />
+                          <rect x="3" y="17" width="7" height="6" />
+                          <rect x="14" y="1" width="7" height="6" />
+                          <rect x="14" y="11" width="7" height="12" />
+                        </svg>
+                        <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                          Company
+                        </span>
                       </Link>
                     </div>
                     <div>
