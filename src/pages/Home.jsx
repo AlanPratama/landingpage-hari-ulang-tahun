@@ -41,8 +41,8 @@ export const Home = () => {
 
         {/* <video src="../../public/assets/pesonaIndonesia.gif" autoPlay loop className="h-screen"></video> */}
       </section>
-      <section>
-        <div className="py-[200px]">
+      <section className="overflow-hidden">
+        <div id="tema-besar-section" className="py-[200px] relative">
           <TemaBesar slides={slides} />
         </div>
       </section>
