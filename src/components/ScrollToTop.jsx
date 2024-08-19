@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+
 
 export const ScrollToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -8,7 +11,7 @@ export const ScrollToTop = () => {
             if (window.scrollY > 300) {
                 setIsVisible(true);
             } else {
-                setIsVisible(false);
+                setIsVisible(false); 
             }
         };
 
@@ -31,7 +34,10 @@ export const ScrollToTop = () => {
                     onClick={scrollToTop}
                     style={styles.button}
                 >
-                    ↑
+                    <FontAwesomeIcon
+                        icon={faArrowUp}
+                        style={styles.icon}
+                    />
                 </button>
             )}
         </>
@@ -41,7 +47,7 @@ export const ScrollToTop = () => {
 const styles = {
     button: {
         position: "fixed",
-        bottom: "30px",
+        bottom: "90px",
         right: "30px",
         backgroundColor: "grey",
         color: "#fff",
@@ -53,6 +59,10 @@ const styles = {
         cursor: "pointer",
         boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
         zIndex: "1000",
+    },
+    icon: {
+        fontSize: "24px",
+        color: "#fff",
     },
 };
 
