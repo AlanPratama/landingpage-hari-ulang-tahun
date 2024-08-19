@@ -25,7 +25,7 @@
 }
 
 #hero-section::before {
-  content: '';
+  content: "";
   background: var(--pattern);
   background-size: contain;
   background-position: center;
@@ -39,7 +39,7 @@
   animation: path-left-anim 2s ease 3s both;
 }
 #hero-section::after {
-  content: '';
+  content: "";
   background: var(--pattern);
   background-size: contain;
   background-position: center;
@@ -82,7 +82,7 @@
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
-  display: none;
+  /* display: none; */
 }
 
 /* Track */
@@ -99,4 +99,13 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #686868;
+}
+
+.slick-dots {
+  bottom: -42px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
 }
