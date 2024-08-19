@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <>
       <div
-        className="-z-10 flex flex-col justify-center items-center h-screen bg-fixed bg-cover bg-center"
+        className="-z-10 flex flex-col justify-center items-center h-screen bg-fixed bg-contain lg:bg-cover bg-center"
         style={{ backgroundImage: `url(${img})` }}
       >
         <div className="z-30 text-center flex flex-col justify-center items-center gap-3">

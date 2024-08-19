@@ -4,16 +4,17 @@ import { About } from './pages/About';
 import { RiLayout } from './layouts/RiLayout';
 import { Gallery } from './pages/Gallery';
 import { Sejarah } from './pages/Sejarah';
+import { Pahlawan } from './pages/Pahlawan';
 
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<RiLayout><Home /></RiLayout>} />
-        <Route path="/ri/gallery" element={<Gallery />} />
+        <Route path="/ri" element={<RiLayout><Home /></RiLayout>} />
+        <Route path="/ri/pahlawan" element={<RiLayout><Pahlawan /></RiLayout>} />
         <Route path="/ri/sejarah" element={<RiLayout><Sejarah /></RiLayout>} />
-        <Route path="/about" element={<RiLayout><About /></RiLayout>} />
+        <Route path="/ri/gallery" element={<Gallery />} />
       </Routes>
     </Router>
   );
