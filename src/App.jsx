@@ -13,18 +13,6 @@ import 'slick-carousel/slick/slick-theme.css';
 
 
 function App() {
-  const slides = [
-    {
-      imageSrc: gambar1,
-      title: "Tema Besar",
-      subtitle: '"Nusantara Baru Indonesia Maju "',
-    },
-    {
-      imageSrc: gambar2,
-      title: "Tema Besar",
-      subtitle: 'HUT ke-79 RI merupakan sebuah batu loncatan besar bagi Indonesia, karena mengalami 3 transisi penting, yaitu menyongsong Ibu Kota baru, pergantian pemimpin, serta Indonesia Emas 2045.',
-    },
-  ];
 
 
   return (
