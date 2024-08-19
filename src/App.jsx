@@ -7,6 +7,7 @@ import { Sejarah } from './pages/Sejarah';
 import { Pahlawan } from './pages/Pahlawan';
 import { EnigmaLayout } from './layouts/EnigmaLayout';
 import { HomeEnigma } from './pages/enigma/HomeEnigma';
+import './custom.css';
 
 
 function App() {
