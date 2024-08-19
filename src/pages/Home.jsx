@@ -1,12 +1,20 @@
 import img from "../../public/assets/pesonaIndonesia.gif";
+import HeroVideo from "../../public/assets/hero-video.mp4";
 
 export const Home = () => {
   return (
     <>
       <div
-        className="-z-10 flex flex-col justify-center items-center h-screen bg-fixed bg-cover bg-center"
-        style={{ backgroundImage: `url(${img})` }}
-      >
+        className=" flex flex-col justify-center items-center h-screen bg-fixed bg-cover bg-center">
+        <div className="slide-bg fixed object-cover object-center w-full h-screen -z-10" data-parallax>
+          <video
+            className="w-full h-screen object-cover object-center h-screen"
+            autoPlay
+            muted >
+            <source src={HeroVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
         <div className="z-30 text-center flex flex-col justify-center items-center gap-3">
           <h1 className="text-5xl md:text-8xl font-semibold text-white text-center uppercase">
             unity <br />
@@ -19,7 +27,7 @@ export const Home = () => {
         <div className="bg-black h-screen w-full opacity-60 absolute top-0 z-20"></div>
       </div>
 
-      <video src="../../public/assets/pesonaIndonesia.gif" autoPlay loop className="h-screen"></video>
+      <video src={HeroVideo} autoPlay loop className="h-screen"></video>
 
     </>
   );
