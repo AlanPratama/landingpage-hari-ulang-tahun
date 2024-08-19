@@ -153,11 +153,11 @@ export const Home = () => {
 
       {quotes && (
         <div className="py-16 px-6 flex flex-wrap justify-center items-center gap-2 sm:gap-12 h-screen pb-8 sm:pb-0">
-        <div data-aos="fade-right">
+        <div data-aos="fade-right" className="w-1/3">
           <img src={quotes.photo} className="w-96 rounded-md shadow-xl border border-gray-200" alt={quotes.name} />
         </div>
 
-        <div data-aos="fade-left" className="max-w-xl">
+        <div data-aos="fade-left" className="max-w-xl w-2/3">
           <h1 className="text-2xl sm:text-3xl font-bold capitalize mb-2">"{quotes.quote}"</h1>
           <p className="text-xl font-semibold">- {quotes.name}</p>
 
