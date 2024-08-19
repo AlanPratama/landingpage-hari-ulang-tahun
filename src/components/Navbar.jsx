@@ -1,21 +1,37 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const [isColoChange, setIsColoChange] = useState(false);
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.scrollY > 350) {
+                setIsColoChange(true);
+            } else {
+                setIsColoChange(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
   
     return (
         <>
 {/* -mb-16 */}
 
-      <div style={{ zIndex: 999 }} className="fixed top-0 w-full px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div style={{ zIndex: 999 }} className="   relative flex items-center justify-between lg:justify-center lg:space-x-16">
+      <div style={{ zIndex: 999 }} className="fixed top-0 lg:left-[50%] lg:translate-x-[-50%] w-full px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+        <div style={{ zIndex: 999 }} className=" relative flex items-center justify-between lg:justify-center lg:space-x-16">
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link to={"/ri/gallery"}
                 aria-label="Our product"
                 title="Our product"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Gallery
               </Link>
@@ -25,7 +41,7 @@ export const Navbar = () => {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Pricing
               </a>
@@ -45,7 +61,7 @@ export const Navbar = () => {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 About us
               </a>
@@ -55,7 +71,7 @@ export const Navbar = () => {
                 href="/"
                 aria-label="Sign in"
                 title="Sign in"
-                className="font-medium tracking-wide text-white transition-colors duration-200 hover:text-[#ED1C24]"
+                className={`font-medium tracking-wide ${isColoChange ? "text-black" : "text-white"} transition-colors duration-200 hover:text-[#ED1C24]`}
               >
                 Sign in
               </a>
