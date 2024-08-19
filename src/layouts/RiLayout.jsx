@@ -5,11 +5,11 @@ import { Splash } from '../pages/Splash'
 export const RiLayout = ({ children }) => {
   return (
     <>
+        <Navbar />
 
-        <Splash/>
-        <Navbar/>
-
-        {children}
+        <div className=''>
+            {children}
+        </div>
 
     </>
   )

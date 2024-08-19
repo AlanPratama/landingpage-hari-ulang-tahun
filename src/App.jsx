@@ -4,15 +4,18 @@ import { About } from './pages/About';
 import { RiLayout } from './layouts/RiLayout';
 import { Splash } from './pages/Splash';
 import './custom.css';
+import { Gallery } from './pages/Gallery';
+import { Sejarah } from './pages/Sejarah';
 
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={<Splash />} />
-        <Route path="/home" element={<RiLayout><Home /></RiLayout>} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<RiLayout><Home /></RiLayout>} />
+        <Route path="/ri/gallery" element={<Gallery />} />
+        <Route path="/ri/sejarah" element={<RiLayout><Sejarah /></RiLayout>} />
+        <Route path="/about" element={<RiLayout><About /></RiLayout>} />
       </Routes>
     </Router>
   );
