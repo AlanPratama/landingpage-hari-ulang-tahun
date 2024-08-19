@@ -10,6 +10,7 @@ import { Pahlawan } from './pages/Pahlawan';
 import { EnigmaLayout } from './layouts/EnigmaLayout';
 import { HomeEnigma } from './pages/enigma/HomeEnigma';
 import './custom.css';
+import { DefaultPage } from './pages/DefaultPage';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<DefaultPage />} />
         <Route path="/ri" element={<RiLayout><Home /></RiLayout>} />
         <Route path="/ri/pahlawan" element={<RiLayout><Pahlawan /></RiLayout>} />
         <Route path="/ri/sejarah" element={<RiLayout><Sejarah /></RiLayout>} />
