@@ -13,7 +13,7 @@ function TemaBesar({ slides }) {
     };
 
     return (
-        <div className="slider-container w-screen overflow-x-hidden h-[100vh]">
+        <div className="slider-container w-screen overflow-x-hidden h-[100vh]" id="tema">
             <Slider {...settings}>
                 {slides.map((slide, index) => (
                     <div key={index} className=''> 

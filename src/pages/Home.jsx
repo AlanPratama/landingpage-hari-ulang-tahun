@@ -42,7 +42,7 @@ export const Home = () => {
         {/* <video src="../../public/assets/pesonaIndonesia.gif" autoPlay loop className="h-screen"></video> */}
       </section>
       <section>
-        <div className="py-[200px]">
+        <div className="py-[200px] overflow-hidden">
           <TemaBesar slides={slides} />
         </div>
       </section>
