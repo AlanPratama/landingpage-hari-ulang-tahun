@@ -1,13 +1,12 @@
 import React from 'react'
 import { Navbar } from '../components/Navbar'
 
-export const RiLayout = ({ chidlren }) => {
+export const RiLayout = ({ children }) => {
   return (
     <>
         <Navbar/>
 
-        {chidlren}
-
+        {children}
     </>
   )
 }
