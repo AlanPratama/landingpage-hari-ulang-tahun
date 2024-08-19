@@ -50,7 +50,7 @@ export const Footer = () => {
                                 title="Our email"
                                 className="transition-colors duration-300 text-white-400 hover:text-blue-800"
                             >
-                                keltnigga@pookie.mail
+                                admin@mail.com
                             </a>
                         </div>
                         <div className="flex">

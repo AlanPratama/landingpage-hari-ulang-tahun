@@ -8,7 +8,7 @@ export const Navbar = () => {
 
     useEffect(() => {
         const toggleVisibility = () => {
-            if (window.scrollY > 350) {
+            if (window.scrollY > 400) {
                 setIsColoChange(true);
             } else {
                 setIsColoChange(false);
@@ -25,7 +25,7 @@ export const Navbar = () => {
 {/* -mb-16 */}
 
       <div style={{ zIndex: 999 }} className="fixed top-0 lg:left-[50%] lg:translate-x-[-50%] w-full px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <div style={{ zIndex: 999 }} className=" relative flex items-center justify-between lg:justify-center lg:space-x-16">
+        <div style={{ zIndex: 999 }} className={`${isColoChange ? "bg-white rounded-full w-auto" : " "} relative flex items-center justify-between lg:justify-center lg:space-x-16`}>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
               <Link to={"/ri/gallery"}
