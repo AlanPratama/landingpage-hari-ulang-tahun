@@ -20,10 +20,11 @@ export const Home = () => {
   ];
   return (
     <>
-      <section>
+      <section className="overflow-hidden relative">
 
         <div
-          className="-z-10 flex flex-col justify-center items-center h-screen bg-fixed bg-cover bg-center"
+        id="hero-section"
+          className="-z-10 flex flex-col overflow-hidden before:w-[600px] before:h-[300px] after:w-[600px] after:h-[300px] justify-center items-center h-screen bg-fixed bg-cover bg-center"
           style={{ backgroundImage: `url(${img})` }}
         >
           <div className="z-30 text-center flex flex-col justify-center items-center gap-3">
