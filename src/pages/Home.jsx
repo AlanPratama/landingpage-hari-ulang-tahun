@@ -3,6 +3,9 @@ import TemaBesar from "../components/TemaBesar";
 import FilosofiCarousel from "../components/FilosofiCarousel";
 import gambar1 from '../assets/tema_besar_1.jpg';
 import gambar2 from '../assets/tema_besar_2.jpg';
+import gambar3 from '../../public/assets/FotoIKN.png';
+import gambar4 from '../../public/assets/FotoEstafet.png';
+import gambar5 from '../../public/assets/FotoAnakIndonesia.jpg';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -17,6 +20,21 @@ export const Home = () => {
       imageSrc: gambar2,
       title: "Tema Besar",
       subtitle: 'HUT ke-79 RI merupakan sebuah batu loncatan besar bagi Indonesia, karena mengalami 3 transisi penting, yaitu menyongsong Ibu Kota baru, pergantian pemimpin, serta Indonesia Emas 2045.',
+    },
+    {
+      imageSrc: gambar3,
+      title: "3 Transisi Penting",
+      subtitle: 'Menyongsong Ibu Kota Baru.',
+    },
+    {
+      imageSrc: gambar4,
+      title: "3 Transisi Penting",
+      subtitle: 'Estafet Kepemimpinan.',
+    },
+    {
+      imageSrc: gambar5,
+      title: "3 Transisi Penting",
+      subtitle: 'Indonesia Emas 2045.',
     },
   ];
   return (
