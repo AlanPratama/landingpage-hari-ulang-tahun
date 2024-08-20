@@ -1,8 +1,8 @@
 export const Gallery = () => {
   return (
     <>
-      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(./assets/FotoSungaiKelaiBerauKaltim.jpg)` }}></div>
-      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(./assets/FotoBukitTelangKalsel.jpg)` }}></div>
+      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(/assets/FotoSungaiKelaiBerauKaltim.jpg)` }}></div>
+      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(/assets/FotoBukitTelangKalsel.jpg)` }}></div>
 
       <div class="px-5 py-6 lg:px-10 bg-black">
         <div class="-m-1 flex flex-wrap md:-m-2">
@@ -56,8 +56,8 @@ export const Gallery = () => {
       </div>
 
 
-      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(./assets/FotoSungaiKelaiBerauKaltim.jpg)` }}></div>
-      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(./assets/FotoBukitTelangKalsel.jpg)` }}></div>
+      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(/assets/FotoSungaiKelaiBerauKaltim.jpg)` }}></div>
+      <div className="h-screen bg-cover bg-fixed bg-center" style={{ backgroundImage: `url(/assets/FotoBukitTelangKalsel.jpg)` }}></div>
 
     </>
   )
