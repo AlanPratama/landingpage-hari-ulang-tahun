@@ -56,8 +56,7 @@ export const Footer = () => {
                         <div className="flex">
                             <p className="mr-1">Address:</p>
                             <a
-                                href="https://www.google.com/maps/place/Anus,+89560+Fouronnes,+France/@47.5999995,3.533333,15z/data=!3m1!4b1!4m6!3m5!1s0x47ee30fdb05d98e1:0x2609ce35b1c9e342!8m2!3d47.6!4d3.533333!16s%2Fm%2F03y9dzm?entry=ttu"
-                                target="_blank"
+                                href="#"
                                 rel="noopener noreferrer"
                                 aria-label="Our address"
                                 title="Our address"
@@ -95,7 +94,7 @@ export const Footer = () => {
                                 </svg>
                             </a>
                         </div>
-                
+
                     </div>
                 </div>
                 <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-gray-700 lg:flex-row">
