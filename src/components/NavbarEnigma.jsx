@@ -7,7 +7,7 @@ export function NavbarEnigma() {
   return (
     <Navbar fluid rounded>
       <Navbar.Brand href="">
-        <img src="../../public/assets/enigma/LogoGrowWithEnigmaCamp-PNG.png" className="mr-3 sm:w-20" alt="Flowbite React Logo" />
+        <img src="./assets/enigma/LogoGrowWithEnigmaCamp-PNG.png" className="mr-3 sm:w-20" alt="Enigma Logo" />
       </Navbar.Brand>
       <div className="flex md:order-2">
         <Button style={{ backgroundColor: "#3266a8" }}>Get started</Button>

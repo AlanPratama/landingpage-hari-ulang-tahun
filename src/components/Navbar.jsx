@@ -2,27 +2,27 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const [isColoChange, setIsColoChange] = useState(false);
+  const [isColoChange, setIsColoChange] = useState(false);
 
-    useEffect(() => {
-        const toggleVisibility = () => {
-            if (window.scrollY > 400) {
-                setIsColoChange(true);
-            } else {
-                setIsColoChange(false);
-            }
-        };
+  useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.scrollY > 400) {
+        setIsColoChange(true);
+      } else {
+        setIsColoChange(false);
+      }
+    };
 
-        window.addEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", toggleVisibility);
 
-        return () => window.removeEventListener("scroll", toggleVisibility);
-    }, []);
-  
-    return (
-        <>
-{/* -mb-16 */}
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
+
+  return (
+    <>
+      {/* -mb-16 */}
 
       <div style={{ zIndex: 999 }} className="fixed top-0 lg:left-[50%] lg:translate-x-[-50%] w-full px-4 py-6 mx-auto lg:py-2 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
         <div style={{ zIndex: 999 }} className={`${isColoChange ? "bg-white rounded-full w-auto" : " "} relative flex items-center justify-between lg:justify-center lg:space-x-16`}>
@@ -52,7 +52,7 @@ export const Navbar = () => {
             title="Company"
             className="inline-flex items-center"
           >
-            <img src="../../public/assets/HUTRI79LogoUtama.png" className="w-24" alt="" />
+            <img src="./assets/HUTRI79LogoUtama.png" className="w-24" alt="" />
           </Link>
           <ul className="flex items-center hidden space-x-8 lg:flex">
             <li>
@@ -147,7 +147,7 @@ export const Navbar = () => {
                   </div>
                   <nav>
                     <ul className="space-y-4">
-                    <li>
+                      <li>
                         <Link
                           href="/ri"
                           aria-label="Our product"
@@ -199,7 +199,7 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-      </>
+    </>
 
-    );
-  };
+  );
+};

@@ -4,13 +4,13 @@
 import { Carousel } from "flowbite-react";
 
 const images = [
-  "../../public/assets/enigma/DSC04007.jpg",
-  "../../public/assets/enigma/DSC04009.jpg",
-  "../../public/assets/enigma/DSC04010.jpg",
-  "../../public/assets/enigma/DSC04023.jpg",
-  "../../public/assets/enigma/DSC04026.jpg",
-  "../../public/assets/enigma/DSC04029.jpg",
-  "../../public/assets/enigma/DSC04033.jpg",
+  "./assets/enigma/DSC04007.jpg",
+  "./assets/enigma/DSC04009.jpg",
+  "./assets/enigma/DSC04010.jpg",
+  "./assets/enigma/DSC04023.jpg",
+  "./assets/enigma/DSC04026.jpg",
+  "./assets/enigma/DSC04029.jpg",
+  "./assets/enigma/DSC04033.jpg",
 ];
 
 export function CarouselComp() {
