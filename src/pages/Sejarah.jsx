@@ -15,7 +15,7 @@ export const Sejarah = () => {
     <div className="px-10 pb-10 bg-center bg-cover bg-fixed" style={{ backgroundImage: "url(https://static.vecteezy.com/system/resources/previews/016/074/881/non_2x/indonesian-map-illustration-vector.jpg)" }}>
       <div className="pt-24 space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-blue-300 before:to-transparent">
 
-        <div data-aos="fade-left" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -40,7 +40,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananVOC.png"
+                src="/assets/perlawananVOC.png"
                 alt="Perlawanan Awal terhadap Portugis dan VOC"
                 className="w-full rounded-lg mb-3"
               />
@@ -56,7 +56,7 @@ export const Sejarah = () => {
           </div>
         </div>
 
-        <div data-aos="fade-right" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -81,7 +81,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananAceh.png"
+                src="/assets/perlawananAceh.png"
                 alt="Perang Aceh (1873 - 1904)
 "
                 className="w-full rounded-lg mb-3"
@@ -94,7 +94,7 @@ export const Sejarah = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -119,7 +119,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananJawa.png"
+                src="/assets/perlawananJawa.png"
                 alt="Perang Jawa
 "
                 className="w-full rounded-lg mb-3"
@@ -132,7 +132,7 @@ export const Sejarah = () => {
           </div>
         </div>
 
-        <div data-aos="fade-right" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -157,7 +157,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananPadri.png"
+                src="/assets/perlawananPadri.png"
                 alt="Perang Padri
 "
                 className="w-full rounded-lg mb-3"
@@ -170,7 +170,7 @@ export const Sejarah = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -195,7 +195,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananBaliLombok.png"
+                src="/assets/perlawananBaliLombok.png"
                 alt="Perang Bali dan Lombok
 "
                 className="w-full rounded-lg mb-3"
@@ -208,7 +208,7 @@ export const Sejarah = () => {
           </div>
         </div>
 
-        <div data-aos="fade-right" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -233,7 +233,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananBanjar.png"
+                src="/assets/perlawananBanjar.png"
                 alt="Perang Banjar (1859 - 1906)
 
 "
@@ -246,7 +246,7 @@ export const Sejarah = () => {
           </div>
         </div>
 
-        <div data-aos="fade-left" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+        <div data-aos="zoom-in" className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
           <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-blue-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
             <svg
               className="fill-current"
@@ -271,7 +271,7 @@ export const Sejarah = () => {
             </div>
             <div className="text-slate-500">
               <img
-                src="../../public/assets/perlawananKemerdekaan.png"
+                src="/assets/perlawananKemerdekaan.png"
                 alt="Perang Kemerdekaan (1945 - 1949)
 
 "
