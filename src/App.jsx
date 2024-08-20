@@ -1,8 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { About } from './pages/About';
 import { RiLayout } from './layouts/RiLayout';
-import { Splash } from './pages/Splash';
 import './custom.css';
 import { Gallery } from './pages/Gallery';
 import { Sejarah } from './pages/Sejarah';
@@ -11,6 +8,7 @@ import { EnigmaLayout } from './layouts/EnigmaLayout';
 import { HomeEnigma } from './pages/enigma/HomeEnigma';
 import './custom.css';
 import { DefaultPage } from './pages/DefaultPage';
+import { Home } from './pages/Home';
 
 
 function App() {

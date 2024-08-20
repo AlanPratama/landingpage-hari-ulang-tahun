@@ -34,29 +34,29 @@ export const Footer = () => {
                         <div className="flex">
                             <p className="mr-1  ">Phone:</p>
                             <a
-                                href="tel:+6281293343259"
+                                href="tel:+6285817000942"
                                 aria-label="Our phone"
                                 title="Our phone"
                                 className="transition-colors duration-300 text-white-400 hover:text-blue-800"
                             >
-                                +62 81293343259
+                                +62 85817000942
                             </a>
                         </div>
                         <div className="flex">
                             <p className="mr-1">Email:</p>
                             <a
-                                href="mailto:kelTnigga@pookie.mail"
+                                href="mailto:pralan76@gmail.com"
                                 aria-label="Our email"
                                 title="Our email"
                                 className="transition-colors duration-300 text-white-400 hover:text-blue-800"
                             >
-                                admin@mail.com
+                                pralan76@mail.com
                             </a>
                         </div>
                         <div className="flex">
                             <p className="mr-1">Address:</p>
                             <a
-                                href="#"
+                                href="https://maps.app.goo.gl/HSw6R1qSCLQTArXD8"
                                 rel="noopener noreferrer"
                                 aria-label="Our address"
                                 title="Our address"
@@ -71,7 +71,9 @@ export const Footer = () => {
                             Social
                         </span>
                         <div className="flex items-center mt-1 space-x-3">
-                            <a
+                            <a 
+                                href='https://x.com/enigmacamp'
+                                target='_blank'
                                 className="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400"
                             >
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -79,6 +81,8 @@ export const Footer = () => {
                                 </svg>
                             </a>
                             <a
+                                href='https://www.instagram.com/enigmacamp/'
+                                target='_blank'
                                 className="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400"
                             >
                                 <svg viewBox="0 0 30 30" fill="currentColor" className="h-6">
@@ -87,6 +91,8 @@ export const Footer = () => {
                                 </svg>
                             </a>
                             <a
+                                href='https://www.facebook.com/profile.php?id=100089567792931'
+                                target='_blank'
                                 className="text-gray-400 transition-colors duration-300 hover:text-deep-purple-accent-400"
                             >
                                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
@@ -99,7 +105,7 @@ export const Footer = () => {
                 </div>
                 <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t border-gray-700 lg:flex-row">
                     <p className="text-sm text-gray-400">
-                        © Copyright 2020 by keltnigga. All rights reserved.
+                        © Copyright 2024 by BangIniDiisiApa?. All rights reserved.
                     </p>
                 </div>
             </div>
